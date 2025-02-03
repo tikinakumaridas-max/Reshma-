@@ -17,12 +17,12 @@
     "PASSWORD": "",
     "OTPKEY": "",
     "BOTNAME": "Rizzu",
-    "PREFIX": "/",
+    "PREFIX": ".",
     "ADMINBOT": [
-        "100040426712109"
+        "100016828397863"
     ],
     "NDH": [
-        "100037743553265"
+        "100016828397863"
     ],
     "DATABASE": {
         "sqlite": {
