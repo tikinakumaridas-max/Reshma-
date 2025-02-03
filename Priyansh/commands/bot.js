@@ -12,7 +12,7 @@ module.exports.config = {
 module.exports.handleEvent = async function({ api, event, args, Threads, Users }) {
   var { threadID, messageID, reason } = event;
   const moment = require("moment-timezone");
-  const time = moment.tz("Asia/Kolkata").format("DD/MM/YYYY || HH:mm:ss");
+  const time = moment.tz("Asia/Karachi").format("DD/MM/YYYY || HH:mm:ss");
   var idgr = `${event.threadID}`;
   var id = event.senderID;
   var name = await Users.getNameUser(event.senderID);
@@ -22,7 +22,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    mess = "{name}"
   if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("bot") == 0)) {
     var msg = {
-      body: `🔶${name}🔶,  \n\n『\n   ${rand} 』\n\n❤️𝙲𝚛𝚎𝚍𝚒𝚝𝚜 : 𝗔𝗿𝘂𝗻 𝗞𝘂𝗺𝗮𝗿🌹 `
+      body: `🔶${name}🔶,  \n\n『\n   ${rand} 』\n\n❤️𝐎𝐖𝐍𝐄𝐑 : 𝑵𝑨𝑰𝑹𝑼 𝑨𝑵𝑫 𝑺𝑯𝑨𝑨𝑵🌹 `
     }
     return api.sendMessage(msg, threadID, messageID);
   };
