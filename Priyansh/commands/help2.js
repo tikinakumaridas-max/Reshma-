@@ -2,7 +2,7 @@
 	name: "help2",
 	version: "1.0.2",
 	hasPermssion: 0,
-	credits: "PetterSever",
+	credits: "𝐇𝐚𝐦𝐳𝐢 𝐓𝐫𝐢𝐜𝐤𝐞𝐫",
 	description: "Beginner's Guide",
 	commandCategory: "system",
 	usages: "[Tên module]",
@@ -73,7 +73,7 @@ module.exports. run = function({ api, event, args, getText }) {
     for (let item of returnArray) msg += `✰『 ${++i} 』 ➬${item} \n`;
     
     
-    const siu = `Page Cmds  💯💯💖𝐌𝐚𝐝𝐞 𝐁𝐲 𝐀𝐫𝐮𝐧 𝐤𝐮𝐦𝐚𝐫`;
+    const siu = `Page Cmds  💯💯💖𝐌𝐚𝐝𝐞 𝐁𝐲 𝐇𝐚𝐦𝐳𝐢 𝐓𝐫𝐢𝐜𝐤𝐞𝐫`;
     
  const text = `\nPage (${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)})`;
  
