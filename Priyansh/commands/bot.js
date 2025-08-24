@@ -3,7 +3,7 @@ module.exports.config = {
   name: "goibot",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "Fixed By Arun Kumar",
+  credits: "Fixed By 𝐇𝐚𝐦𝐳𝐢 𝐓𝐫𝐢𝐜𝐤𝐞𝐫",
   description: "goibot",
   commandCategory: "Noprefix",
   usages: "noprefix",
@@ -22,7 +22,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    mess = "{name}"
   if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("bot") == 0)) {
     var msg = {
-      body: `🔶${name}🔶,  \n\n『\n   ${rand} 』\n\n❤️𝐎𝐖𝐍𝐄𝐑 : 𝑵𝑨𝑰𝑹𝑼 𝑨𝑵𝑫 𝑺𝑯𝑨𝑨𝑵🌹 `
+      body: `🔶${name}🔶,  \n\n『\n   ${rand} 』\n\n❤️𝐎𝐖𝐍𝐄𝐑 : •]••´º´•»   🎀  𝐻𝒜𝑀𝒵𝐼 𝒳 𝐹𝒜𝒯𝐼  🎀   »•´º´••]•🌹 `
     }
     return api.sendMessage(msg, threadID, messageID);
   };
