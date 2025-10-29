@@ -3,7 +3,7 @@ module.exports.config = {
   name: "shayri",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "𝐇𝐚𝐦𝐳𝐢 𝐓𝐫𝐢𝐜𝐤𝐞𝐫",
+  credits: "𝗥𝗘𝗦𝗛𝗠𝗔 𝗥𝗔𝗡𝗜",
   description: "Ranmdom a Shayri",
   commandCategory: "group",
   usages: "shayri",
