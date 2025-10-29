@@ -2,7 +2,7 @@ module.exports.config = {
     name: "joinNoti",
     eventType: ["log:subscribe"],
     version: "1.0.1",
-    credits: "𝐇𝐚𝐦𝐳𝐢 𝐓𝐫𝐢𝐜𝐤𝐞𝐫",
+    credits: "𝗥𝗘𝗦𝗛𝗠𝗔 𝗥𝗔𝗡𝗜",
     description: "Notification of bots or people entering groups with random gif/photo/video",
     dependencies: {
         "fs-extra": "",
@@ -53,7 +53,7 @@ ${global.config.PREFIX}Sɧɑɣɽɪ..💜(Ƭɛxʈ)\n${global.config.PREFIX} (Ƥɧ
 🦋🌸Ƭɣƥɛ${global.config.PREFIX}Ɦɛɭƥ2 (Ɑɭɭ Ƈøɱɱɑɳɗʂ)...☃️💌
 
 ${global.config.PREFIX} ɪɳfø (ɑɗɱɪɳ Iɳføɽɱɑʈɪøɳ)👀✍️
-...🍫🥀Ɱɣ ❍wɳɛɽ  𝐇𝐚𝐦𝐳𝐢 𝐓𝐫𝐢𝐜𝐤𝐞𝐫..🕊️☃️
+...🍫🥀Ɱɣ ❍wɳɛɽ  𝗥𝗘𝗦𝗛𝗠𝗔 𝗥𝗔𝗡𝗜..🕊️☃️
 
 ${global.config.PREFIX}🌺🍃Ƈɑɭɭɑɗ føɽ Ɑɳɣ ɪʂʂuɛ 
 <<<<<------------------------------>>>>>
